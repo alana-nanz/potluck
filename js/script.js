@@ -17,7 +17,6 @@ const assignedItems = document.querySelector(".assigned-items");
 
 addGuestButton.addEventListener("click", function () {
   const guest = guestInput.value;
-  //console.log(guest);
   addToList(guest);
   clearInput();
   updateGuestcount();
